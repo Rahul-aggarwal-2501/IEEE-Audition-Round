@@ -1,0 +1,70 @@
+body {
+    background-color: aqua;   
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color:rgb(226, 23, 216);
+    text-shadow: rgb(24, 22, 22);
+    font-style: italic bold;
+}
+
+form {
+    text-align: center;
+    text-decoration: rgb(122, 2, 116);
+    margin: 20px auto;
+    width: 320px;
+    font-size: 30px;
+    margin-left: 0fr;
+    color:rgb(53, 53, 236);
+}
+
+input {
+    padding: 10px;
+    font-size: inherit;
+}
+input[Type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    max-width: 100%;
+    border: 4px solid rgb(118, 32, 255);
+}
+input[Type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    max-width: 100%;
+    border: 4px solid rgb(118, 32, 255);
+}
+input[Type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    max-width: 100%;
+    border: 4px solid rgb(118, 32, 255);
+}
+input[type="radio"]{
+    margin: 0px 8px 25px 20px;
+}
+
+input[type="radio"]:first-child {
+    margin-left: 0;
+}
+input[type="submit"] {
+    width: 350px;
+    height: 50px;
+    border-color: crimson;
+    background-color: rgb(31, 191, 231);
+}
+input:focus {
+    background-color: rgb(61, 119, 153);
+    font-style: italic;
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 44px;
+}
+input[type="submit"]:focus {
+    width: 350px;
+    height: 50px;
+    border-color: rgb(233, 7, 52);
+    background-color: rgb(252, 32, 16);
+}
